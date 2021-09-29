@@ -15,8 +15,7 @@ class Pokemon extends Component {
       </div>
     )
   }
-}
-
+};
 Pokemon.propTypes = {
   pokemon: PropTypes.shape({
     name: PropTypes.string.isRequired,
